@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRM" duration-ms="127554" started-at="2020-01-29T04:31:07Z" finished-at="2020-01-29T04:33:14Z">
+    <groups>
+      <group name="smokeTest">
+        <method signature="TestContact1.testStart()[pri:0, instance:ContactsTest.TestContact1@68c4039c]" name="testStart" class="ContactsTest.TestContact1"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="127554" started-at="2020-01-29T04:31:07Z" finished-at="2020-01-29T04:33:14Z">
+      <class name="OrganizationTest.CreateOrganizationTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:OrganizationTest.CreateOrganizationTest@59f99ea]" name="configBC" is-config="true" duration-ms="3433" started-at="2020-01-29T10:02:33Z" finished-at="2020-01-29T10:02:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:OrganizationTest.CreateOrganizationTest@59f99ea]" name="configBM" is-config="true" duration-ms="13371" started-at="2020-01-29T10:02:36Z" finished-at="2020-01-29T10:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="TestStart()[pri:0, instance:OrganizationTest.CreateOrganizationTest@59f99ea]" name="TestStart" duration-ms="21331" started-at="2020-01-29T10:02:50Z" finished-at="2020-01-29T10:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStart -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:OrganizationTest.CreateOrganizationTest@59f99ea]" name="configAM" is-config="true" duration-ms="3107" started-at="2020-01-29T10:03:11Z" finished-at="2020-01-29T10:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:OrganizationTest.CreateOrganizationTest@59f99ea]" name="configAC" is-config="true" duration-ms="102" started-at="2020-01-29T10:03:14Z" finished-at="2020-01-29T10:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- OrganizationTest.CreateOrganizationTest -->
+      <class name="CampaignTest.CreateCampaignTest1">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:CampaignTest.CreateCampaignTest1@ae45eb6]" name="configBC" is-config="true" duration-ms="3465" started-at="2020-01-29T10:01:48Z" finished-at="2020-01-29T10:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:CampaignTest.CreateCampaignTest1@ae45eb6]" name="configBM" is-config="true" duration-ms="10779" started-at="2020-01-29T10:01:51Z" finished-at="2020-01-29T10:02:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="CampCreation1()[pri:0, instance:CampaignTest.CreateCampaignTest1@ae45eb6]" name="CampCreation1" duration-ms="27530" started-at="2020-01-29T10:02:02Z" finished-at="2020-01-29T10:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampCreation1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:CampaignTest.CreateCampaignTest1@ae45eb6]" name="configAM" is-config="true" duration-ms="3030" started-at="2020-01-29T10:02:30Z" finished-at="2020-01-29T10:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:CampaignTest.CreateCampaignTest1@ae45eb6]" name="configAC" is-config="true" duration-ms="108" started-at="2020-01-29T10:02:33Z" finished-at="2020-01-29T10:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- CampaignTest.CreateCampaignTest1 -->
+      <class name="ContactsTest.TestContact1">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:ContactsTest.TestContact1@68c4039c]" name="configBC" is-config="true" duration-ms="6053" started-at="2020-01-29T10:01:07Z" finished-at="2020-01-29T10:01:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:ContactsTest.TestContact1@68c4039c]" name="configBM" is-config="true" duration-ms="11149" started-at="2020-01-29T10:01:13Z" finished-at="2020-01-29T10:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="testStart()[pri:0, instance:ContactsTest.TestContact1@68c4039c]" name="testStart" duration-ms="21020" started-at="2020-01-29T10:01:24Z" finished-at="2020-01-29T10:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:ContactsTest.TestContact1@68c4039c]" name="configAM" is-config="true" duration-ms="2903" started-at="2020-01-29T10:01:45Z" finished-at="2020-01-29T10:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:ContactsTest.TestContact1@68c4039c]" name="configAC" is-config="true" duration-ms="129" started-at="2020-01-29T10:01:48Z" finished-at="2020-01-29T10:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- ContactsTest.TestContact1 -->
+    </test> <!-- Test -->
+  </suite> <!-- CRM -->
+</testng-results>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CRM]" parallel="tests">
+  <test name="Test runner 2(failed)" parallel="tests">
+    <classes>
+      <class name="OrganizationTest.CreateOrganizationTestNormal">
+        <methods>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+          <include name="TestStart"/>
+        </methods>
+      </class> <!-- OrganizationTest.CreateOrganizationTestNormal -->
+      <class name="CampaignTest.CreateCampaignTest2">
+        <methods>
+          <include name="createcamp2"/>
+        </methods>
+      </class> <!-- CampaignTest.CreateCampaignTest2 -->
+      <class name="CampaignTest.CreateCampaignTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- CampaignTest.CreateCampaignTest -->
+      <class name="CampaignTest.CreateCampaignTest1">
+        <methods>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- CampaignTest.CreateCampaignTest1 -->
+      <class name="OrganizationTest.CreateOrganizationPhoneTest">
+        <methods>
+          <include name="Teststart"/>
+        </methods>
+      </class> <!-- OrganizationTest.CreateOrganizationPhoneTest -->
+      <class name="OrganizationTest.CreateOrganizationTest">
+        <methods>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configAC"/>
+        </methods>
+      </class> <!-- OrganizationTest.CreateOrganizationTest -->
+    </classes>
+  </test> <!-- Test runner 2(failed) -->
+</suite> <!-- Failed suite [CRM] -->
